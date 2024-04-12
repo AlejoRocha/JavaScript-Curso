@@ -11,7 +11,7 @@ const saludar = function(){
 saludar()
 
 //funcion flecha 
-const  saludar =()=>{
+const saludar =()=>{
     console.log("hola amigos")
 }
 
@@ -25,5 +25,5 @@ function suma (a,b){
 console.log(suma(3,5))
 
 //funcion flecha con return implicito 
-const resta = (a,b)=> a- b;
+const resta = (a,b)=> a - b;
 console.log(resta(8,2));

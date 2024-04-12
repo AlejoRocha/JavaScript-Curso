@@ -1,4 +1,4 @@
-class Persona {
+class Usuario {
     constructor(name,lastName,id){
         this.name=name  
         this.lastName=lastName  
@@ -6,8 +6,11 @@ class Persona {
     }
 
     obtenerIdentidad(){
-        return this.name ,this.lastName
+        return "hola" + this.name + this.lastName
     }
 }
 
-const instancia1=new Persona(name, lastName)
+const instancia1=new Usuario(name, lastName)
+
+// operador IN devuelve un booleano 
+console.log("name" in instancia1)
