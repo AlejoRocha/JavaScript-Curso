@@ -11,7 +11,7 @@ for (let i =0; i < productos.length;i++){
 
 //.push agrega un elemento al final del array, se puede agregar una variable
 //let cama = "cama" ** producto.push(cama)
-productos.push("cama")//agrega el valor que le pase al final
+productos.push("cama")
 
 //.unshift agrega un elemento al principio del array 
 productos.unshift("puerta")
