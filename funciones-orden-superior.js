@@ -97,3 +97,37 @@ const preciosActualizados = prodcutos.map((producto)=>{
 console.log(preciosActualizados)
 
 //reduce() recorre el array y retorna un unico valor tras hacer una operacion sobre los elementos
+const sumTotal = numeros.reduce((acumulador,numero)=>acumulador+numero,0);
+//este codigo sirve para sumar el total del carrito de compra 
+const totalCarrito = productos.reduce((acumulador,producto) =>acumulador + prodcuto.precio,0)
+
+//sort() reordena el array segun el criterio que le pasemos,
+numeros.sort((a,b)=> a-b)// no lo guardamos en ningun lado, porque esta modificando el array 
+
+/* -------------------------------------------------------------------------- */
+/*                                    MATH                                    */
+/* -------------------------------------------------------------------------- */
+const numeroDecimal=1.25
+const numeroDecimal2=1.75
+
+//min() devuelve el numero minimo de un listado 
+console.log(Math.min(12,44,3,15,67));
+
+//max() devuelve el numero maximo de un listado
+console.log(Math.max(15,66,76,43,2))
+
+//ceil() retorna un valor redondeado para arriba 
+console.log(Math.ceil(numeroDecimal))
+
+//floor() retorta un valor redondeado para abajo
+console.log(Math.floor(numeroDecimal2))
+
+//round() si es mayor o igual a 0.5 redondea para arriba, si es menor para abajo 
+console.log(Math.round(numeroDecimal))
+
+//random() devuelve un numero random entre el 0 y 1 
+console.log(Math.random());
+console.log(Math.round(Math.random)); // redonda el numero, entonces devuelve 1 o 0 
+
+console.log(Math.round(Math.random() *50 ) )// esto da un numero random entre el 0 y 50. Es entre 50 porque lo estoy multiplicando 
+
